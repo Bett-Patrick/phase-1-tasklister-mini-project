@@ -33,5 +33,42 @@ button {
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px #8a6e6e;
+  border-radius: 5px;
+}
+
+.task{
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 3px 0 3px 3px;
+  font-weight: bold;
+  background-color: blue;
+}
+
+select{
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+}
+
+select option{
+  font-weight: bold;
+}
+
+#delete-button{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none; 
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
